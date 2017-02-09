@@ -1,0 +1,111 @@
+body {
+  background-color: white;
+  font-family: 'Proxima-Nova';
+  letter-spacing: 1.5px;
+}
+
+.dark-background {
+  background-color: #2b4e64;
+}
+
+.mid-background {
+  background-color: #4f7c91;
+}
+
+h1, h2 {
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin: 0px;
+}
+
+h3, h4 {
+  text-align: center;
+  padding: 20px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+p {
+  text-align: center;
+  padding: 20px 50px 20px 50px;
+  font-size: 16px;
+}
+
+#logo {
+  max-width: 250px;
+  padding: 20px;
+  margin-left: 8%;
+}
+
+ul {
+  display: inline;
+  text-decoration: none;
+  float: right;
+  margin-top: 50px;
+  margin-right: 10%;
+}
+
+ul li {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 15px;
+}
+
+ul li a {
+  color: white;
+  padding: 10px;
+}
+
+ul li a:hover {
+  background-color: white;
+  color: #2b4e64;
+  text-decoration: none;
+}
+
+ul li a:active {
+  background-color: white;
+  color: #2b4e64;
+  text-decoration: none;
+}
+
+#call-banner {
+
+}
+
+#photo-slide-1 {
+  background-image: url("../img/plumber.jpg");
+
+}
+
+#photo-slide-2 {
+  background-image: url("../img/gville.jpg");
+}
+
+.parallax {
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#service{
+  height: 250px;
+}
+
+#serving{
+  height: 250px;
+}
+
+#foot {
+  color: white;
+  font-weight: lighter;
+  padding: 7px;
+  text-align: center;
+}
