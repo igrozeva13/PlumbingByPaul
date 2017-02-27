@@ -19,13 +19,20 @@ h1, h2 {
   margin: 0px;
 }
 
+h1 {
+  font-size: 50px;
+}
+
 h3, h4 {
   text-align: center;
   padding: 20px;
+  color: white;
 }
 
 h4 {
   font-size: 20px;
+  padding-top: 40px;
+  color: black;
 }
 
 p {
@@ -35,16 +42,16 @@ p {
 }
 
 #logo {
-  max-width: 250px;
+  max-width: 300px;
   padding: 20px;
   margin-left: 8%;
 }
 
-ul {
+nav {
   display: inline;
   text-decoration: none;
   float: right;
-  margin-top: 50px;
+  margin-top: 60px;
   margin-right: 10%;
 }
 
@@ -74,6 +81,12 @@ ul li a:active {
   text-decoration: none;
 }
 
+ul li a:focus {
+  color: white;
+    text-decoration: none;
+}
+
+
 #call-banner {
 
 }
@@ -99,13 +112,25 @@ ul li a:active {
   height: 250px;
 }
 
+#photo-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  min-height: 500px;
+}
+
 #serving{
-  height: 250px;
+  max-height: 550px;
+}
+
+.icon {
+  max-width: 20%;
+  margin-left: 40%;
+  margin-right: 40%;
+  margin-bottom: 0px;
 }
 
 #foot {
   color: white;
   font-weight: lighter;
-  padding: 7px;
+  padding: 10px 0px 7px 0px;
   text-align: center;
 }
