@@ -16,17 +16,23 @@ body {
 h1 {
   font-size: 50px;
   letter-spacing: 13px;
+  font-weight: 600;
 }
 
 h2 {
   font-size: 40px;
   letter-spacing: 7px;
+  font-weight: 100;
 }
 
 h1, h2, h3, h4 {
   text-align: center;
   color: white;
   padding: 20px;
+}
+
+h3 {
+    font-weight: 300;
 }
 
 h4 {
@@ -43,17 +49,20 @@ p {
 .body {
   text-align: center;
   font-size: 16px;
-  margin: 25px 70px 25px 70px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 0px;
+  margin-bottom: 40px;
 }
 
 /*--------------------------------------- Main Nav -------------------------------------*/
 
 #head {
-  height: 90px;
+  height: 100px;
 }
 
 #logo {
-  max-width: 300px;
+  max-width: 350px;
   padding: 20px;
   margin-left: 8%;
   margin-bottom: -110px;
@@ -67,7 +76,7 @@ nav {
   margin-right: 10%;
 }
 
-ul li {
+nav ul li {
   display: inline-block;
   text-decoration: none;
   text-align: center;
@@ -76,24 +85,24 @@ ul li {
   padding: 15px;
 }
 
-ul li a {
+nav ul li a {
   color: white;
   padding: 10px;
 }
 
-ul li a:hover {
+nav ul li a:hover {
   background-color: white;
   color: #2b4e64;
   text-decoration: none;
 }
 
-ul li a:active {
+nav ul li a:active {
   background-color: white;
   color: #2b4e64;
   text-decoration: none;
 }
 
-ul li a:focus {
+nav ul li a:focus {
   color: white;
     text-decoration: none;
 }
@@ -159,6 +168,15 @@ ul li a:focus {
   margin-left: 35%;
   margin-right: 35%;
   margin-top: -70px;
+}
+
+/*--------------------------------------- Services Page -------------------------------------*/
+.bullet-list {
+  font-size: 16px;
+  list-style-type: circle;
+  margin-left: 0;
+  margin-right: 25%;
+  margin-bottom: 50px;
 }
 
 
