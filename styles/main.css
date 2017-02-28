@@ -10,48 +10,60 @@ body {
 
 .mid-background {
   background-color: #4f7c91;
-}
-
-h1, h2 {
-  text-align: center;
-  color: white;
-  padding: 20px;
-  margin: 0px;
+  margin-top: -20px;
 }
 
 h1 {
   font-size: 50px;
+  letter-spacing: 13px;
 }
 
-h3, h4 {
+h2 {
+  font-size: 40px;
+  letter-spacing: 7px;
+}
+
+h1, h2, h3, h4 {
   text-align: center;
-  padding: 20px;
   color: white;
+  padding: 20px;
 }
 
 h4 {
   font-size: 20px;
   padding-top: 40px;
-  color: black;
+  color: #2b4e64;
 }
 
 p {
   text-align: center;
-  padding: 20px 50px 20px 50px;
+  padding:10px;
+}
+
+.body {
+  text-align: center;
   font-size: 16px;
+  margin: 25px 70px 25px 70px;
+}
+
+/*--------------------------------------- Main Nav -------------------------------------*/
+
+#head {
+  height: 90px;
 }
 
 #logo {
   max-width: 300px;
   padding: 20px;
   margin-left: 8%;
+  margin-bottom: -110px;
 }
 
 nav {
   display: inline;
   text-decoration: none;
   float: right;
-  margin-top: 60px;
+  margin-top: 40px;
   margin-right: 10%;
 }
 
@@ -86,14 +98,14 @@ ul li a:focus {
     text-decoration: none;
 }
 
-
-#call-banner {
-
-}
+/*--------------------------------------- Photo Slides -------------------------------------*/
 
 #photo-slide-1 {
-  background-image: url("../img/plumber.jpg");
+  background-image: url("../img/sink.jpg");
+}
 
+#photo-text {
+  padding-top: 150px;
 }
 
 #photo-slide-2 {
@@ -108,26 +120,49 @@ ul li a:focus {
   background-size: cover;
 }
 
-#service{
-  height: 250px;
-}
-
 #photo-overlay {
   background-color: rgba(0, 0, 0, 0.5);
   min-height: 500px;
 }
 
-#serving{
-  max-height: 550px;
+/*--------------------------------------- Services -------------------------------------*/
+
+#service{
+  max-height: 1400px;
 }
 
 .icon {
-  max-width: 20%;
-  margin-left: 40%;
-  margin-right: 40%;
-  margin-bottom: 0px;
+  max-width: 50%;
+  margin-left: 25%;
 }
 
+#icons {
+  margin-left: 15%;
+  margin-right: 15%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.col-sm-3{
+  margin: 0px;
+  padding: 0px;
+}
+
+/*--------------------------------------- Now Serving -------------------------------------*/
+
+#serving{
+  max-height: 1400px;
+}
+
+.sc {
+  max-width: 30%;
+  margin-left: 35%;
+  margin-right: 35%;
+  margin-top: -70px;
+}
+
+
+/*--------------------------------------- Footer -------------------------------------*/
 #foot {
   color: white;
   font-weight: lighter;
