@@ -41,6 +41,18 @@ h4 {
   color: #2b4e64;
 }
 
+h5 {
+  font-size: 30px;
+  letter-spacing: 7px;
+  font-weight: 500;
+  padding-left: 40px;
+  background-color: #2b4e64;
+  margin: 0px;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 p {
   text-align: center;
   padding:10px;
